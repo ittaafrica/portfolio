@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Experience from './components/Resume/Experience';
 import Resume from './components/Resume/Resume';
 import Blog from './components/Blog';
+import Contact from './components/Contact/Contacts';
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -44,6 +45,7 @@ function App() {
       <Experience />
       <Resume />
       <Blog />
+      <Contact />
     </div>
   );
 }
