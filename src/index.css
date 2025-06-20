@@ -39,3 +39,12 @@
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: poppins;
+  src: url("/public//fonts//Poppins//Poppins-Regular.ttf");
+}
+
+*{
+  font-family: poppins;
+}

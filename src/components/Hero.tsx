@@ -1,7 +1,26 @@
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, Github, Mail } from 'lucide-react';
 
 const Hero = () => {
+  // Function to handle the download
+  const handleDownload = () => {
+    // Using the public URL to the PDF file
+    const pdfUrl = '/pdf/resume.pdf';
+    
+    // Create a temporary anchor element
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    
+    // Set the download attribute with the desired filename
+    link.download = 'Abdullahi_Rufai_Resume.pdf';
+    
+    // Append to the body, trigger click, then remove
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="h-[800px] relative flex items-center justify-center bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
       <div className="absolute inset-0 z-0 opacity-30 dark:opacity-20">
@@ -31,26 +50,30 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 mt-8">
-          <motion.a
+          <motion.button
+            onClick={handleDownload}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center px-6 py-3 bg-primary-light dark:bg-primary-dark text-white rounded-md hover:bg-blue-600 dark:hover:bg-blue-500 transition shadow-md cursor-pointer"
           >
             <Download className="mr-2" size={18} />
             Download Resume
-          </motion.a>
+          </motion.button>
           
           <motion.a
+            href="https://github.com/yourusername" // Replace with your GitHub URL
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center px-6 py-3 bg-gray-800 dark:bg-gray-700 text-white rounded-md hover:bg-gray-700 dark:hover:bg-gray-600 transition shadow-md cursor-pointer"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <Github className="mr-2" size={18} />
             GitHub
           </motion.a>
           
           <motion.a
+            href="mailto:your.email@example.com" // Replace with your email
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center px-6 py-3 border border-gray-400 dark:border-gray-600 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition shadow-md cursor-pointer"

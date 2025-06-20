@@ -82,7 +82,7 @@ export const blogPosts = [
     description: "Click here to start your journey into an interesting field of machine learning.",
     category: "Artificial Intelligence",
     date: "Oct 15, 2023",
-    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*_iK8sFQfWX8OZ6J_5QY_Qg.jpeg",
+    image: "/images/ai.jpg",
     link: "https://medium.com/@yusufrufaiabdullahi/artificial-intelligence-ai-a-simple-introduction-27578e1b44b8",
     icon: Brain
   },
@@ -92,7 +92,7 @@ export const blogPosts = [
     description: "Stay updated with the latest trends, technologies, and best practices in embedded systems.",
     category: "Embedded Systems",
     date: "Nov 2, 2023",
-    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*5oVbG5nZz8DmMpIwQkU7Lg.jpeg",
+    image: "/images/eds.jpg",
     link: "https://medium.com/@yusufrufaiabdullahi/embedded-system-a-simple-introduction-bb5d7c5125e3",
     icon: Cpu
   },
@@ -102,7 +102,7 @@ export const blogPosts = [
     description: "Cultivate a habit of lifelong learning, vital in the ever-evolving tech landscape.",
     category: "Technology",
     date: "Dec 5, 2023",
-    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*_iK8sFQfWX8OZ6J_5QY_Qg.jpeg",
+    image: "/images/tech.jpg",
     link: "https://hashnode.com/edit/clmm99bqv000309l61qvhfbds",
     icon: TrendingUp
   },
@@ -112,7 +112,7 @@ export const blogPosts = [
     description: "Reading IoT blog posts enables you to stay at the forefront of this dynamic field.",
     category: "IoT",
     date: "Jan 10, 2024",
-    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*5oVbG5nZz8DmMpIwQkU7Lg.jpeg",
+    image: "/images/iot.jpg",
     link: "",
     icon: Wifi
   },
@@ -132,7 +132,7 @@ export const blogPosts = [
     description: "Learn about new AI techniques, algorithms, and tools to improve your skills.",
     category: "Machine Learning",
     date: "Mar 5, 2024",
-    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*5oVbG5nZz8DmMpIwQkU7Lg.jpeg",
+    image: "/images/ml.jpg",
     link: "https://medium.com/@yusufrufaiabdullahi/artificial-intelligence-ai-a-simple-introduction-27578e1b44b8",
     icon: Cpu
   }

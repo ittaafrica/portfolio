@@ -13,7 +13,7 @@ const Header = () => {
     <header className="fixed w-full bg-white bg-opacity-90 dark:bg-background-dark dark:bg-opacity-90 z-50 transition-all duration-300 shadow-sm">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <span className="text-xl font-bold text-secondary-light dark:text-secondary-dark cursor-pointer">
-          Linus<span className="text-primary-light dark:text-primary-dark">.dev</span>
+          Abdullahi Yusuf<span className="text-primary-light dark:text-primary-dark"> Rufai</span>
         </span>
         
         <div className="flex items-center space-x-6">

@@ -21,11 +21,11 @@ const About = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className="rounded-full w-48 h-48 mx-auto md:mx-0 overflow-hidden border-4 border-primary-light dark:border-primary-dark shadow-lg"
+              className="rounded-full w-[400px] h-[400px] flex items-center justify-center mx-auto md:mx-0 overflow-hidden border-4 border-primary-light dark:border-primary-dark shadow-lg"
             >
               <img
                 className="w-full h-full object-cover"
-                src="/images/ray(2).png"
+                src="/images/ray2.png"
                 alt="professional headshot"
               />
             </motion.div>
